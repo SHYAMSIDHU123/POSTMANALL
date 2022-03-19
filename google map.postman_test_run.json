@@ -1,0 +1,92 @@
+{
+	"id": "054e7db7-7968-4da8-99b9-50ec622ae4ab",
+	"name": "google map",
+	"timestamp": "2022-03-14T17:35:33.982Z",
+	"collection_id": "0-bb971613-56f3-4942-9bf4-698af8ebc21b",
+	"folder_id": 0,
+	"environment_id": "42161760-29a2-43cc-ac31-7ecb7c3d432b",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "086eae06-7a3b-475f-85ab-de323a532b99",
+			"name": "add",
+			"url": "http://216.10.245.166/maps/api/place/add/json?key=qaclick123",
+			"time": 156,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Add should be contain value": true,
+				"STATUS": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Add should be contain value": {
+					"pass": 1,
+					"fail": 0
+				},
+				"STATUS": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				156
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Add should be contain value": true,
+					"STATUS": true
+				}
+			]
+		},
+		{
+			"id": "3cce682b-ea78-46f4-b68e-edcd1a1751da",
+			"name": "delete",
+			"url": "http://216.10.245.166/maps/api/place/delete/json?key=qaclick123",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 289,
+	"collection": {
+		"requests": [
+			{
+				"id": "086eae06-7a3b-475f-85ab-de323a532b99",
+				"method": "POST"
+			},
+			{
+				"id": "3cce682b-ea78-46f4-b68e-edcd1a1751da",
+				"method": "DELETE"
+			}
+		]
+	}
+}

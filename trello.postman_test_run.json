@@ -1,0 +1,120 @@
+{
+	"id": "a9220075-ba07-4fef-b1ce-8f55289ad970",
+	"name": "trello",
+	"timestamp": "2022-03-14T17:26:45.524Z",
+	"collection_id": "0-fcdf729d-1561-4861-8c5c-20d488c34c76",
+	"folder_id": 0,
+	"environment_id": "42161760-29a2-43cc-ac31-7ecb7c3d432b",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5b78bf2d-c307-4bb5-9d97-b58350807d06",
+			"name": "create",
+			"time": 433,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				628,
+				433
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "163bdc39-2cb2-4d05-95f8-d9ad1dcfbf5d",
+			"name": "board",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				328,
+				312
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "55073057-19d8-4d41-840c-dfd168d7054d",
+			"name": "delete",
+			"time": 583,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 2,
+					"fail": 0
+				}
+			},
+			"times": [
+				580,
+				583
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 2,
+	"totalTime": 2864,
+	"collection": {
+		"requests": [
+			{
+				"id": "5b78bf2d-c307-4bb5-9d97-b58350807d06",
+				"method": "POST"
+			},
+			{
+				"id": "163bdc39-2cb2-4d05-95f8-d9ad1dcfbf5d",
+				"method": "GET"
+			},
+			{
+				"id": "55073057-19d8-4d41-840c-dfd168d7054d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
